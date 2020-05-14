@@ -1,0 +1,23 @@
+{
+  "name": "noderestfuljsonapi",
+  "version": "1.0.0",
+  "description": "Node Restful",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "restful"
+  ],
+  "author": "Dhaval Patel",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/inert": "^6.0.1",
+    "hapi": "^16.1.0",
+    "joi": "^10.2.1",
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {}
+}
